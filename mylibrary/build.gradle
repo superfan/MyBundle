@@ -15,7 +15,7 @@ apply plugin: 'maven-publish'
 
 
 group = 'com.sh3h.android'
-version = '1.0.1'
+version = '1.0.2'
 
 tasks.withType(JavaCompile) {
     sourceCompatibility = 1.7
