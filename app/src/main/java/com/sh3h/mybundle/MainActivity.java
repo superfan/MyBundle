@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onTest1(View view) {
         Intent intent = new Intent();
-        intent.setClassName(this, "com.taobao.firstbundle.FirstBundleActivity");
+        intent.setClassName(this, "com.sh3h.mylibrary.TestActivity");
         startActivity(intent);
     }
 }

@@ -83,7 +83,7 @@ atlas {
     atlasEnabled true
 
     tBuildConfig {
-        autoStartBundles = ['com.taobao.firstbundle'] //自启动bundle配置
+        autoStartBundles = ['com.sh3h.mylibrary'] //自启动bundle配置
     }
 
 
@@ -120,7 +120,7 @@ dependencies {
         transitive = true
     }
 
-    compile("com.taobao.android:firstbundle:${version}@awb")
+    compile("com.sh3h.android:mylibrary:1.0.1@awb")
 
     compile 'com.taobao.android:atlasupdate:1.1.4.2@aar'
 
